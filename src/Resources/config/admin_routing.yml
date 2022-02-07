@@ -1,1 +1,5 @@
 # Define your own admin routes here
+shippo:
+  prefix: /admin
+  path: /shippo
+  controller: SkyBoundTech\SyliusShippoPlugin\Controller\ShippoController::sendOrdersAction
